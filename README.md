@@ -1,2 +1,2 @@
 # courseGOMicrosoft
-Learning Go with Microsoft
+Learning Go with Microsoft INC
