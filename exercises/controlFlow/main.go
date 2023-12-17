@@ -22,6 +22,7 @@ func findprimes(number int) bool {
 		if number%i == 0 {
 			return false
 		}
+		fmt.Println(number)
 	}
 
 	if number > 1 {
@@ -42,16 +43,16 @@ func main() {
 	} */
 
 	// Find the primes
-	/* fmt.Println("Prime numbers less than 20:")
+	fmt.Println("Prime numbers less than 20:")
 
 	for number := 1; number <= 20; number++ {
 		if findprimes(number) {
-			fmt.Printf("%v ", number)
+			fmt.Printf("%v: ", number)
 		}
-	} */
+	}
 
 	// Ask a number
-	val := 0
+	/* val := 0
 
 	for {
 		fmt.Print("Enter number: ")
@@ -65,5 +66,5 @@ func main() {
 		default:
 			fmt.Println("You entered:", val)
 		}
-	}
+	} */
 }
